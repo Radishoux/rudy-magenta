@@ -52,10 +52,11 @@ publication, pas une preuve visuelle. Vérifier aussi le site en navigateur à
    vidéo et absence d’erreurs de ressources.
 
 Les chemins CSS/JS/favicon sont relatifs, donc utilisables à la racine ou sous
-`/<nom-du-depot>/`. Aucun `CNAME` ni URL canonique ne présume du futur domaine.
-Une fois l’adresse publique stabilisée, ajouter l’URL canonique et `og:url`
-dans `public/index.html`. Un domaine personnalisé se configure ensuite dans
-Pages et chez son fournisseur DNS.
+`/<nom-du-depot>/`. L’adresse publique actuelle est
+`https://radishoux.github.io/rudy-magenta/`, également utilisée dans le lien
+canonique, `og:url` et les données structurées de `public/index.html`.
+Aucun `CNAME` ne présume du futur domaine. Un domaine personnalisé se configure
+ensuite dans Pages et chez son fournisseur DNS ; mettre ces trois URL à jour.
 
 Le workflow suit la [documentation officielle GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages),
 consultée le 20 octobre 2026. L’écriture Pages et le jeton OIDC sont limités au
@@ -98,7 +99,7 @@ Le contenu est directement écrit dans `public/index.html`, sans CMS.
 - Instagram : `https://www.instagram.com/rudy_magenta/`
 - TikTok : `https://www.tiktok.com/@rudy.magenta`
 - YouTube : `https://www.youtube.com/@Magenta74`
-- Smartlink vérifié dans la description du clip :
+- Smartlink vérifié dans Chrome, avec les destinations d’écoute affichées :
   `https://release.landr.com/991061284891`
 - Vidéo vérifiée : `https://www.youtube.com/watch?v=QyZS4qw0xKk`,
   titre « magenta - balcon (official lyric video) », publiée le 10 octobre 2026.
@@ -159,5 +160,8 @@ desktop a confirmé le rendu, le lancement de balcon après clic et le message
 « adresse copiée » après copie du contact. Les mises en page étroites ont été
 inspectées dans des iframes de 390 et 768 px sous Chrome, sans débordement
 horizontal (largeurs utiles 375 et 753 px avec barres de défilement). Il ne
-s’agit pas d’un test sur téléphone physique. Le contrôle de l’URL publique
-reste à terminer avant publication définitive.
+s’agit pas d’un test sur téléphone physique. Le premier workflow
+`39434733563` a terminé avec succès ; le site public a été ouvert dans Chrome,
+avec son contenu et sa mise en page. Le smartlink LANDR affiche bien
+« magenta - balcon » et les destinations Spotify, Apple Music, Deezer,
+YouTube Music, Amazon Music et TIDAL.

@@ -38,3 +38,11 @@ Pays-Bas ; **tes bras** annoncé comme un morceau en cours. Rejeté :
 « Rudy Magenta », les majuscules et toute date publique déduite d’un objectif
 de production interne. Coût : les handles existants gardent leurs URL
 historiques, et le nom du répertoire technique n’est pas le nom public.
+
+## 2026-10-20 — Publication du dépôt et du site
+
+Choisi : dépôt public `Radishoux/rudy-magenta`, GitHub Pages via Actions,
+URL canonique `https://radishoux.github.io/rudy-magenta/`. La visibilité
+publique du code et de sa documentation a été explicitement approuvée.
+Rejeté : publier le dossier d’audit et de stratégie avec le code du site,
+ou annoncer un domaine personnalisé avant son acquisition.
