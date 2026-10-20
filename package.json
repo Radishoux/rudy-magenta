@@ -1,0 +1,15 @@
+{
+  "name": "rudy-magenta",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun scripts/serve.ts",
+    "check": "bun scripts/check.ts",
+    "build": "bun scripts/build.ts",
+    "preview": "bun scripts/serve.ts --dist"
+  },
+  "engines": {
+    "bun": ">=1.3.7"
+  }
+}

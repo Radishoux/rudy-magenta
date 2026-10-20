@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#171419">
+    <meta name="description" content="magenta, musique indé en français depuis les pays-bas. écoute balcon, regarde la lyric video et suis la création de tes bras.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="magenta">
+    <meta property="og:title" content="magenta | musique & images">
+    <meta property="og:description" content="balcon est disponible. les morceaux, les images et les prochaines sessions de magenta.">
+    <meta property="og:image" content="https://i.ytimg.com/vi/QyZS4qw0xKk/hq720.jpg?sqp=-oaymwErCOgCEMoBSFryq4qpAx0IARUAAIhCGAHYAQHiAQoIGBACGAY4AUABuAL3GA==&amp;rs=AOn4CLA90ktblF8uJmsb3lKEwegURuFr5w">
+    <meta property="og:image:alt" content="visuel de la lyric video balcon de magenta">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+    <title>magenta | musique & images</title>
+    <script type="module" src="./app.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "magenta",
+        "jobTitle": "artiste musical",
+        "email": "rudy.magenta74@gmail.com",
+        "sameAs": [
+          "https://www.instagram.com/rudy_magenta/",
+          "https://www.tiktok.com/@rudy.magenta",
+          "https://www.youtube.com/@Magenta74"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">aller au contenu</a>
+    <header class="site-header">
+      <a class="brand" href="#main" aria-label="magenta, accueil">magenta</a>
+      <nav aria-label="navigation principale">
+        <a href="#musique">musique</a>
+        <a href="#coulisses">coulisses</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="artist-name">
+        <div class="hero-copy">
+          <p class="eyebrow">musique & images</p>
+          <h1 id="artist-name">magenta</h1>
+          <p class="intro">de l’indé en français, depuis les pays-bas.<br>mes morceaux et leur création, du studio à l’image.</p>
+          <a class="button primary" href="https://release.landr.com/991061284891" target="_blank" rel="noopener noreferrer">
+            écouter balcon <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="release" id="musique">
+          <div class="video-container" id="video-container">
+            <a class="video-launch" id="video-launch" href="https://www.youtube.com/watch?v=QyZS4qw0xKk" target="_blank" rel="noopener noreferrer" aria-label="regarder balcon, la lyric video">
+              <img class="video-art" src="https://i.ytimg.com/vi/QyZS4qw0xKk/hq720.jpg?sqp=-oaymwErCOgCEMoBSFryq4qpAx0IARUAAIhCGAHYAQHiAQoIGBACGAY4AUABuAL3GA==&amp;rs=AOn4CLA90ktblF8uJmsb3lKEwegURuFr5w" width="1280" height="720" fetchpriority="high" alt="visuel de la lyric video balcon de magenta">
+              <span class="play-button" aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="release-caption">
+            <div>
+              <h2>balcon</h2>
+              <p>lyric video <span aria-hidden="true">/</span> 10 octobre 2026</p>
+            </div>
+            <a class="text-link video-fallback" href="https://www.youtube.com/watch?v=QyZS4qw0xKk" target="_blank" rel="noopener noreferrer">voir sur youtube <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="sr-only" role="status" id="video-status"></p>
+        </div>
+      </section>
+
+      <section class="studio-section" id="coulisses" aria-labelledby="studio-title">
+        <div class="studio-heading">
+          <span class="section-label">en cours</span>
+          <h2 id="studio-title">tes bras</h2>
+        </div>
+        <div class="studio-copy">
+          <p>mon prochain morceau prend forme.</p>
+          <p>les paroles sont là, la boucle aussi. je prépare la suite et les premières vidéos pour t’emmener dans les sessions.</p>
+          <p class="studio-invite">on se retrouve là-bas.</p>
+          <ul class="social-links" aria-label="suivre magenta">
+            <li><a href="https://www.instagram.com/rudy_magenta/" target="_blank" rel="noopener noreferrer"><span>instagram</span><span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://www.tiktok.com/@rudy.magenta" target="_blank" rel="noopener noreferrer"><span>tiktok</span><span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://www.youtube.com/@Magenta74" target="_blank" rel="noopener noreferrer"><span>youtube</span><span aria-hidden="true">↗</span></a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">on crée<br>quelque chose ?</h2>
+        <div class="contact-details">
+          <p>musique, images, collaborations.</p>
+          <a class="contact-email" href="mailto:rudy.magenta74@gmail.com">rudy.magenta74@gmail.com <span aria-hidden="true">↗</span></a>
+          <button class="copy-email" id="copy-email" type="button" hidden>copier l’adresse</button>
+          <p class="copy-status" id="copy-status" role="status"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 magenta</span>
+      <a href="#main">retour en haut <span aria-hidden="true">↑</span></a>
+    </footer>
+  </body>
+</html>
