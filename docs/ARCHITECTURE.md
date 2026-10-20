@@ -156,5 +156,8 @@ zone `role="status"`.
 Le 20 octobre 2026 : check statique et build Bun réussis. Les réponses HTTP de
 la page, du CSS, du JavaScript et du favicon sont 200. Dans Chrome, l’inspection
 desktop a confirmé le rendu, le lancement de balcon après clic et le message
-« adresse copiée » après copie du contact. La validation mobile et le contrôle
-de l’URL publique restent à terminer avant publication définitive.
+« adresse copiée » après copie du contact. Les mises en page étroites ont été
+inspectées dans des iframes de 390 et 768 px sous Chrome, sans débordement
+horizontal (largeurs utiles 375 et 753 px avec barres de défilement). Il ne
+s’agit pas d’un test sur téléphone physique. Le contrôle de l’URL publique
+reste à terminer avant publication définitive.
